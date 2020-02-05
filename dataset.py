@@ -74,7 +74,7 @@ def write_linearized_trees(path_dest, sequences):
         for sentence in sequences:
              
             for word, postag,gold in sentence:
-                f.write(u"\t".join([word,unicode(postag),unicode(gold)])+u"\n")
+                f.write(u"\t".join([word, postag, gold])+u"\n")
             f.write(u"\n")    
 
 
