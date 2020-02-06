@@ -8,7 +8,7 @@ import tempfile
 import copy
 import sys
 import time
-from tree import SeqTree, RelativeLevelTreeEncoder
+from .tree import SeqTree, RelativeLevelTreeEncoder
 
 
 """

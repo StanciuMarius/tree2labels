@@ -5,7 +5,7 @@ a sequence of labels, one per word, in a TSV format.
 '''
 
 from argparse import ArgumentParser
-from tree import SeqTree, RelativeLevelTreeEncoder
+from .tree import SeqTree, RelativeLevelTreeEncoder
 from nltk.corpus import treebank
 
 import nltk
